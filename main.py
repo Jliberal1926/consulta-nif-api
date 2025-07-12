@@ -14,7 +14,7 @@ def consultar_nif():
     try:
         # Chama o script Python passando o NIF como argumento
         result = subprocess.run(
-            ['python3', 'seu_script.py', nif],
+            ['python3', 'consultar_nif.py', nif],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
